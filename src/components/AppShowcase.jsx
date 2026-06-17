@@ -114,7 +114,7 @@ function AppShowcase() {
               <div className="showcase__tablet-bezel">
                 <div className="showcase__tablet-camera"></div>
                 <div className="showcase__tablet-screen">
-                  <img src="/scs-dashboard2-pc.png" alt="ADDSPOT Dashboard Tablet" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                  <img src="/addspot-pantalla-ipad.png" alt="ADDSPOT Dashboard Tablet" style={{ width: '100%', height: 'auto', display: 'block' }} />
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ function AppShowcase() {
               <div className="showcase__phone-bezel">
                 <div className="showcase__phone-notch"></div>
                 <div className="showcase__phone-screen">
-                  <img src="/scs-dasboard2-phone.png" alt="ADDSPOT App Mobile" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                  <img src="/addspot-pantalla1-iphone.png" alt="ADDSPOT App Mobile" style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
                 </div>
               </div>
             </div>

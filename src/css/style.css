@@ -162,6 +162,19 @@ button {
   box-shadow: var(--shadow-lift);
 }
 
+.btn--outline {
+  background: transparent;
+  color: var(--accent-tech);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  box-shadow: inset 0px 0px 4px rgba(56, 189, 248, 0.1), 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn--outline:hover {
+  background: rgba(56, 189, 248, 0.05);
+  border-color: rgba(56, 189, 248, 0.8);
+  box-shadow: 0 0 16px rgba(56, 189, 248, 0.4), inset 0 0 8px rgba(56, 189, 248, 0.2);
+}
+
 .btn--outline-dark {
   background: var(--surface-secondary);
   color: #0F172A;

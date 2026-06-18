@@ -98,39 +98,39 @@ const resources = {
         ]
       },
       benefits: {
-        badge: 'The Competition',
-        title1: 'The competition stays on paper.',
-        title2: 'ADDSPOT dominates the operation.',
-        subtitle: 'While other platforms try to digitize the valet with generic tools, we have built an OS designed from the asphalt up. Analyze the difference:',
+        badge: 'La Competencia',
+        title1: 'La competencia se queda en papel.',
+        title2: 'ADDSPOT domina la operación.',
+        subtitle: 'Mientras otras plataformas intentan digitalizar el valet con herramientas genéricas, nosotros construimos un SO diseñado desde el asfalto. Analiza la diferencia:',
         table: {
-          headers: ['Feature', 'Generic Apps', 'Valet Competitors', 'ADDSPOT'],
+          headers: ['Característica', 'Apps Genéricas', 'Competencia', 'ADDSPOT'],
           rows: [
-            ['Business Focus', 'Office management', 'General parking', 'Operational Logistics'],
-            ['Key Custody', 'Non-existent', 'Manual / Decentralized', 'Digital Board (Keyholder)'],
-            ['Legal Shielding', 'None', 'Basic', 'Mandatory (Check-in + Spot)'],
-            ['Architecture', 'Online-only (basement fail)', 'Synchronous (slow)', 'Robust Offline-First'],
-            ['Operational UX', 'Complex', 'Overloaded', 'Premium / 1-handed']
+            ['Enfoque del Negocio', 'Gestión de oficina', 'Estacionamiento general', 'Logística Operativa'],
+            ['Custodia de Llaves', 'Inexistente', 'Manual / Descentralizada', 'Tablero Digital (Llavero)'],
+            ['Blindaje Legal', 'Ninguno', 'Básico', 'Obligatorio (Check-in + Spot)'],
+            ['Arquitectura', 'Solo online (falla en sótanos)', 'Síncrona (lenta)', 'Robusta Offline-First'],
+            ['UX Operativa', 'Compleja', 'Sobrecargada', 'Premium / A una mano']
           ]
         },
         contrast: [
           {
-            title: '1. Vs "Office Apps" (Wayleadr, Ronspot)',
-            problem: 'The problem: Born to reserve desks. The workflow is slow and lacks the concept of a "key" and the "journey".',
-            solution: 'The ADDSPOT difference: We manage moving assets. Our flow cuts delivery times right on the street.'
+            title: '1. Vs "Apps de Oficina" (Wayleadr, Ronspot)',
+            problem: 'El problema: Nacieron para reservar escritorios. El flujo es lento y carecen del concepto de "llave" y el "viaje".',
+            solution: 'La diferencia ADDSPOT: Manejamos activos en movimiento. Nuestro flujo recorta tiempos de entrega directamente en la calle.'
           },
           {
-            title: '2. Vs "Traditional Competitors" (FlashValet, SMS Valet)',
-            problem: 'The problem: They act as digital notepads. Valets stash keys anywhere with zero physical audit protocol.',
-            solution: 'The ADDSPOT difference: Integrated Keyholder role. No digital hand-off means instant alerts. We eliminate human error by design.'
+            title: '2. Vs "Competidores Tradicionales" (FlashValet, SMS Valet)',
+            problem: 'El problema: Actúan como libretas digitales. Los valets esconden las llaves en cualquier lado con cero protocolo de auditoría física.',
+            solution: 'La diferencia ADDSPOT: Rol de Llavero integrado. Sin entrega digital significa alertas instantáneas. Eliminamos el error humano por diseño.'
           },
           {
-            title: '3. The Achilles Heel: Connectivity',
-            problem: 'The problem: They rely on perfect 4G/5G. In basements or concrete structures, their apps simply stop loading.',
-            solution: 'The ADDSPOT difference: Offline-First Architecture. Everything is saved locally and syncs instantly upon exit. Uninterrupted operation.'
+            title: '3. El Talón de Aquiles: Conectividad',
+            problem: 'El problema: Dependen de 4G/5G perfecto. En sótanos o estructuras de concreto, sus apps simplemente dejan de cargar.',
+            solution: 'La diferencia ADDSPOT: Arquitectura Offline-First. Todo se guarda localmente y se sincroniza al instante al salir. Operación ininterrumpida.'
           }
         ],
-        ctaText: 'The difference between ADDSPOT and the rest is that we don\'t sell software; we sell total control of your parking lot. Are you still using tools that get in the way or do you want one that works for you?',
-        ctaButton: 'Request a Private Demo'
+        ctaText: 'La diferencia entre ADDSPOT y el resto es que no vendemos software; vendemos el control total de tu estacionamiento. ¿Sigues usando herramientas que estorban o quieres una que trabaje para ti?',
+        ctaButton: 'Solicitar Demo Privada'
       },
       showcase: {
         badge: 'Ecosistema de Roles',
@@ -315,23 +315,38 @@ const resources = {
       },
       benefits: {
         badge: 'The Competition',
-        title1: 'Why ADDSPOT is superior',
-        title2: 'to any app on the market.',
-        subtitle: 'Analyze the fundamental difference between ADDSPOT, corporate apps, and direct US competitors.',
-        items: [
+        title1: 'The competition stays on paper.',
+        title2: 'ADDSPOT dominates the operation.',
+        subtitle: 'While other platforms try to digitize the valet with generic tools, we have built an OS designed from the asphalt up. Analyze the difference:',
+        table: {
+          headers: ['Feature', 'Generic Apps', 'Valet Competitors', 'ADDSPOT'],
+          rows: [
+            ['Business Focus', 'Office management', 'General parking', 'Operational Logistics'],
+            ['Key Custody', 'Non-existent', 'Manual / Decentralized', 'Digital Board (Keyholder)'],
+            ['Legal Shielding', 'None', 'Basic', 'Mandatory (Check-in + Spot)'],
+            ['Architecture', 'Online-only (basement fail)', 'Synchronous (slow)', 'Robust Offline-First'],
+            ['Operational UX', 'Complex', 'Overloaded', 'Premium / 1-handed']
+          ]
+        },
+        contrast: [
           {
-            title: 'Key control is not optional',
-            desc: 'Generic apps assume the valet stashes the key anywhere. ADDSPOT is the only system that demands a "digital transfer" to a dedicated Keyholder in the booth. If the car is parked but the key is not on the digital hook, the system throws an alert.'
+            title: '1. Vs "Office Apps" (Wayleadr, Ronspot)',
+            problem: 'The problem: Born to reserve desks. The workflow is slow and lacks the concept of a "key" and the "journey".',
+            solution: 'The ADDSPOT difference: We manage moving assets. Our flow cuts delivery times right on the street.'
           },
           {
-            title: 'Dual photo validation vs. Blind trust',
-            desc: 'The competition only writes down plates. We force you to take photos upon receiving the car and another in the exact spot it was parked. Impossible to lose a vehicle.'
+            title: '2. Vs "Traditional Competitors" (FlashValet, SMS Valet)',
+            problem: 'The problem: They act as digital notepads. Valets stash keys anywhere with zero physical audit protocol.',
+            solution: 'The ADDSPOT difference: Integrated Keyholder role. No digital hand-off means instant alerts. We eliminate human error by design.'
           },
           {
-            title: 'The true Offline Mode',
-            desc: 'Other valet apps freeze if the internet fails. Our engine was built to survive in reinforced concrete basements, saving data and syncing without interrupting your operators workflow.'
+            title: '3. The Achilles Heel: Connectivity',
+            problem: 'The problem: They rely on perfect 4G/5G. In basements or concrete structures, their apps simply stop loading.',
+            solution: 'The ADDSPOT difference: Offline-First Architecture. Everything is saved locally and syncs instantly upon exit. Uninterrupted operation.'
           }
-        ]
+        ],
+        ctaText: 'The difference between ADDSPOT and the rest is that we don\'t sell software; we sell total control of your parking lot. Are you still using tools that get in the way or do you want one that works for you?',
+        ctaButton: 'Request a Private Demo'
       },
       showcase: {
         badge: 'Role Ecosystem',
@@ -359,22 +374,22 @@ const resources = {
       },
       
       faq: {
-        badge: 'Preguntas Frecuentes',
-        title1: 'Resolvemos tus dudas',
-        title2: 'sobre ADDSPOT',
-        subtitle: 'Todo lo que necesitas saber sobre la implementación y operación diaria.',
+        badge: 'Frequently Asked Questions',
+        title1: 'We resolve your doubts',
+        title2: 'about ADDSPOT',
+        subtitle: 'Everything you need to know about the implementation and daily operation.',
         items: [
           {
-            question: '¿Qué hardware necesito para usar ADDSPOT?',
-            answer: 'Solo necesitas teléfonos inteligentes estándar para tus valets y una tablet o computadora para tu administrador y llavero. Al ser basado en la nube, no requiere servidores costosos.'
+            question: 'What hardware do I need to use ADDSPOT?',
+            answer: 'You only need standard smartphones for your valets and a tablet or computer for your admin and keyholder. Being cloud-based, it does not require expensive servers.'
           },
           {
-            question: '¿Qué pasa si un valet se queda sin internet en el sótano?',
-            answer: 'Nada se detiene. Nuestro sistema Offline-First guarda las fotos y ubicaciones en el dispositivo y las sincroniza automáticamente cuando recupera la señal LTE o Wi-Fi.'
+            question: 'What happens if a valet loses internet in the basement?',
+            answer: 'Nothing stops. Our Offline-First system saves photos and locations on the device and syncs them automatically when LTE or Wi-Fi signal is restored.'
           },
           {
-            question: '¿Es difícil capacitar a mis valets tradicionales?',
-            answer: 'En absoluto. La interfaz móvil tiene botones gigantes y obliga a seguir un paso a paso intuitivo (Check-in > Fotos > Manejar > Spot). En un par de horas, tu equipo estará operando al 100%.'
+            question: 'Is it hard to train my traditional valets?',
+            answer: 'Not at all. The mobile interface has giant buttons and forces an intuitive step-by-step process (Check-in > Photos > Drive > Spot). In a couple of hours, your team will be operating at 100%.'
           }
         ]
       },

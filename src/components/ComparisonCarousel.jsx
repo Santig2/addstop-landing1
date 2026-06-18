@@ -5,8 +5,11 @@ import Autoplay from 'embla-carousel-autoplay'
 import { Check, Minus, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const ComparisonCarousel = () => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const rows = Object.values(t('benefits.table.rows', { returnObjects: true }) || {})
+  const headers = Object.values(t('benefits.table.headers', { returnObjects: true }) || {})
+  const competitorLabel = headers[2] || 'Competencia'
+  const winnerText = i18n.language === 'es' ? 'GANADOR' : 'WINNER'
   
   const cards = rows.map(row => ({
     title: row[0],
@@ -42,7 +45,7 @@ const ComparisonCarousel = () => {
                 
                 <div className="comparison-card__body">
                   <div className="comparison-card__section comparison-card__section--competitor">
-                    <span className="comparison-card__label">Competencia</span>
+                    <span className="comparison-card__label">{competitorLabel}</span>
                     <div className="comparison-card__content">
                       <Minus size={18} className="icon-minus" />
                       <p>{card.competitorText}</p>
@@ -54,7 +57,7 @@ const ComparisonCarousel = () => {
                   <div className="comparison-card__section comparison-card__section--addspot">
                     <div className="comparison-card__label comparison-card__label--winner">
                       <span>ADDSPOT</span>
-                      <span className="badge-winner">Winner</span>
+                      <span className="badge-winner">{winnerText}</span>
                     </div>
                     <div className="comparison-card__content">
                       <Check size={18} className="icon-check" />
